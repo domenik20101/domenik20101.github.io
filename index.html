@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Генератор Идей</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <button id="themeToggle">🌙</button>
+    <h1>🔮 Генератор Идей</h1>
+
+    <select id="mode">
+      <option value="seed">🌍 Сид Minecraft</option>
+      <option value="mod">🛠️ Идея мода</option>
+      <option value="name">👤 Имя персонажа</option>
+    </select>
+
+    <button id="generate">Сгенерировать</button>
+    
+    <div class="result animated" id="result">🎲 Нажми на кнопку!</div>
+
+    <div class="buttons">
+      <button id="copy">📋 Скопировать</button>
+      <button id="download">📥 Скачать PNG</button>
+    </div>
+
+    <h3>🧾 История генераций:</h3>
+    <ul id="history"></ul>
+
+    <footer>Создано тобой 😎</footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
